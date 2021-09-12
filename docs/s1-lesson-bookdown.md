@@ -40,7 +40,7 @@
   - Le vocabulaire est pertinent et précis.
 
 
-     
+
 #### Sous-compétence C3.5 : Participer à un échange technique en français et en anglais.
 
 **Objectifs :**
