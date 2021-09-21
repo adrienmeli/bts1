@@ -126,3 +126,108 @@ Niveau visé : **B2**
 ### Interaction orale
 
 > "Je peux communiquer avec un degré de spontanéité et d'aisance qui rende possible une interaction normale avec un locuteur natif. Je peux participer activement à une conversation dans des situations familières, présenter et défendre mes opinions."
+
+
+
+## Polls
+
+### Before and during the poll
+
+- Write down everybody's name on a sheet of paper.
+
+- Wait for the teacher to assign you a poll question.
+
+- Ask your poll question to **everybody** in the class (including yourself!).
+
+- Carefully write down the answers next to the students' names.
+
+
+ 
+
+### After the poll
+
+
+
+
+- Compile the results of your poll.
+- Get ready to present your results orally.
+- Do **NOT** use percentages. Simplify your statistics.
+- Say whether you belong to the majority opinion or not.
+- Say whether the results surprise you, and why.
+  
+
+ 
+
+
+
+
+ 
+
+\begin{longtable}{ll}
+\toprule
+Français & English\\
+\midrule
+\cellcolor{gray!6}{des activités extrascolaires} & \cellcolor{gray!6}{extracurricular activities}\\
+seul & alone\\
+\cellcolor{gray!6}{un ordinateur portable} & \cellcolor{gray!6}{a laptop}\\
+posséder & to own\\
+\cellcolor{gray!6}{rapide} & \cellcolor{gray!6}{fast}\\
+\addlinespace
+taper sur un clavier & to type\\
+\cellcolor{gray!6}{un stage} & \cellcolor{gray!6}{an internship}\\
+passer (du temps) & to spend\\
+\cellcolor{gray!6}{de nationalité étrangère} & \cellcolor{gray!6}{foreign}\\
+un travail à temps partiel & a part-time job\\
+\addlinespace
+\cellcolor{gray!6}{14 sur 20} & \cellcolor{gray!6}{14 out of 20}\\
+un clavier & a keyboard\\
+\bottomrule
+\end{longtable}
+
+
+
+
+
+
+
+
+
+
+
+
+
+\begin{longtable}{l}
+\toprule
+x\\
+\midrule
+\cellcolor{gray!6}{Does it take you more than 45 minutes to go to École Estienne?}\\
+Do you intend to do extracurricular activities this year?\\
+\cellcolor{gray!6}{Do you live alone at home?}\\
+Do you own a laptop?\\
+\cellcolor{gray!6}{Do you prefer to use a Mac or a PC?}\\
+\addlinespace
+Can you type faster than you write?\\
+\cellcolor{gray!6}{Did you live in Paris last year?}\\
+Has Covid-19 changed your life?\\
+\cellcolor{gray!6}{Was last year a good year for you?}\\
+Did you obtain a Bac Général?\\
+\addlinespace
+\cellcolor{gray!6}{Did you obtain a Bac Technologique?}\\
+Did you obtain a Bac Professionnel?\\
+\cellcolor{gray!6}{Are you familiar with InDesign?}\\
+Have you already done an internship?\\
+\cellcolor{gray!6}{Do you already know what option (PI or PP) you are going to choose?}\\
+\addlinespace
+Do you speak English well?\\
+\cellcolor{gray!6}{Have you spent more than a month in an English-speaking country?}\\
+Do you speak a foreign language at home?\\
+\cellcolor{gray!6}{Do you like working in teams?}\\
+Do you already know what you want to do after the BTS?\\
+\addlinespace
+\cellcolor{gray!6}{Do you intend to take a part-time student job?}\\
+\bottomrule
+\end{longtable}
+
+
+
+ 
