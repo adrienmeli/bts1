@@ -264,6 +264,10 @@ sheet & /1/ & /\textipa{Si:t}/\\
 \cellcolor{gray!6}{28/09/2021} & \cellcolor{gray!6}{ERPC3 : Préparer la présentation orale des résultats de sondage}\\
 30/09/2021 & ERPC2 : Préparer la présentation orale des résultats de sondage\\
 \cellcolor{gray!6}{05/10/2021} & \cellcolor{gray!6}{ERPC1 : Préparer la présentation orale des résultats de sondage}\\
+23/11/2021 & Interrogation de vocabulaire et de traduction (ERPC3)\\
+\cellcolor{gray!6}{25/11/2021} & \cellcolor{gray!6}{Interrogation de vocabulaire et de traduction (ERPC2)}\\
+\addlinespace
+30/11/2021 & Interrogation de vocabulaire et de traduction (ERPC1)\\
 \bottomrule
 \end{longtable}
 

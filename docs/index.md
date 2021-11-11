@@ -2,7 +2,7 @@
 title: "BTS Year 1 Lessons"
 subtitle: "École Estienne"
 author: "Adrien Méli"
-date: "November 10, 2021"
+date: "November 11, 2021"
 bibliography: /home/adrien/github/dotfiles/tex/biblio.bib
 biblio-style: "apalike"
 link-citations: yes
