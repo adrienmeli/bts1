@@ -196,7 +196,7 @@ Est-ce que tu travailles, là ? & Are you working right now?\\
 \cellcolor{gray!6}{Qu’ont répondu les étudiants la semaine dernière?} & \cellcolor{gray!6}{What did the students answer last week?}\\
 \addlinespace
 La semaine dernière, 4 étudiants sur 19 ont répondu “non“. & Last week, 4 students out of 19 answered “no“.\\
-\cellcolor{gray!6}{Où as-tu travaillé pendant ton stage ?} & \cellcolor{gray!6}{Where did you work your stage ?}\\
+\cellcolor{gray!6}{Où as-tu travaillé pendant ton stage ?} & \cellcolor{gray!6}{Where did you work during your internship ?}\\
 J’ai travaillé dans une entreprise en banlieue. & I worked in a company in the suburbs.\\
 \cellcolor{gray!6}{As-tu parlé aux clients ?} & \cellcolor{gray!6}{Did you speak to the customers?}\\
 J’ai parlé à beaucoup de clients. & I spoke to a lot of customers.\\
@@ -205,6 +205,15 @@ J’ai parlé à beaucoup de clients. & I spoke to a lot of customers.\\
 J’ai fait un stage de deux mois dans une entreprise l’année dernière. & I did an internship for two months in a company last year\\
 \cellcolor{gray!6}{Je voudrais faire un stage dans une entreprise près de chez moi.} & \cellcolor{gray!6}{I would like to do an internship in a company close to home.}\\
 Pourquoi n'as-tu pas appelé cette entreprise? & Why did you not call that company?\\
+\cellcolor{gray!6}{Je voudrais faire un stage dans une entreprise près de chez moi} & \cellcolor{gray!6}{I would like to do an internship in a company close to home.}\\
+\addlinespace
+Je voudrais commander 2500 dépliants & I would like to order 2500 folded leaflets.\\
+\cellcolor{gray!6}{Quand pouvez-vous les expédier?} & \cellcolor{gray!6}{When can you ship them out?}\\
+Le manager veut que nous travaillions dans l'entreprise & The manager wants us to work in the company\\
+\cellcolor{gray!6}{Ces cartes de visite doivent être imprimées avant la fin de la semaine} & \cellcolor{gray!6}{These business cards must be printed before the end of the week.}\\
+Le client veut que nous expédiions la commande demain. & The customer wants us to ship out the order tomorrow.\\
+\addlinespace
+\cellcolor{gray!6}{J'aimerais que ce livre soit relié en piqûre à cheval.} & \cellcolor{gray!6}{I would like this book to be saddle-stitched.}\\
 \bottomrule
 \end{longtable}
 
@@ -215,7 +224,7 @@ Pourquoi n'as-tu pas appelé cette entreprise? & Why did you not call that compa
 
 \begin{longtable}{lll}
 \toprule
-Word & Stress & Received Pronunciation\\
+Word & Sound & Stress\\
 \midrule
 \cellcolor{gray!6}{require} & \cellcolor{gray!6}{/010/} & \cellcolor{gray!6}{/\textipa{ri."kwaI.@}/}\\
 cheap & /1/ & /\textipa{tSi:p}/\\
@@ -249,6 +258,18 @@ staple & /10/ & /\textipa{"steIp.@l}/\\
 \addlinespace
 sheet & /1/ & /\textipa{Si:t}/\\
 \cellcolor{gray!6}{twice} & \cellcolor{gray!6}{/1/} & \cellcolor{gray!6}{/\textipa{twaIs}/}\\
+violet & /100/ & /\textipa{"vaI.@l.@t}/\\
+\cellcolor{gray!6}{retina} & \cellcolor{gray!6}{/100/} & \cellcolor{gray!6}{/\textipa{"ret.In.@}/}\\
+detection & /010/ & /\textipa{di."tek.S@n}/\\
+\addlinespace
+\cellcolor{gray!6}{signal} & \cellcolor{gray!6}{/10/} & \cellcolor{gray!6}{/\textipa{"sIg.n@l}/}\\
+equal & /10/ & /\textipa{"i:k.w@l}/\\
+\cellcolor{gray!6}{manufacture} & \cellcolor{gray!6}{/2010/} & \cellcolor{gray!6}{/\textipa{""m\ae n.ju."f\ae k.tS@}/}\\
+singer & /10/ & /\textipa{"sIN.@}/\\
+\cellcolor{gray!6}{biology} & \cellcolor{gray!6}{/0100/} & \cellcolor{gray!6}{/\textipa{baI."6l.@dZ.i}/}\\
+\addlinespace
+region & /10/ & /\textipa{"ri:dZ.@n}/\\
+\cellcolor{gray!6}{interact} & \cellcolor{gray!6}{/201/} & \cellcolor{gray!6}{/\textipa{""Int.@r."\ae kt}/}\\
 \bottomrule
 \end{longtable}
 
