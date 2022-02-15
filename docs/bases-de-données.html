@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title> 1 Bases de données | BTS Year 1 Lessons</title>
   <meta name="description" content="A repository of lessons for the year 2021-2022" />
-  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
   <meta property="og:title" content=" 1 Bases de données | BTS Year 1 Lessons" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="Adrien Méli" />
 
 
-<meta name="date" content="2021-09-21" />
+<meta name="date" content="2022-02-15" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,8 +33,9 @@
   
 <link rel="prev" href="index.html"/>
 <link rel="next" href="week-n1.html"/>
-<script src="libs/header-attrs-2.8/header-attrs.js"></script>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -50,11 +51,11 @@
 
 
 
-
 <link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 <script src="libs/kePrint-0.0.1/kePrint.js"></script>
 <link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<link href="libs/vembedr-0.1.4/css/vembedr.css" rel="stylesheet" />
 
 
 
@@ -94,43 +95,82 @@ div.csl-indent {
       <nav role="navigation">
 
 <ul class="summary">
-<li><a href="https://extranet.ecole-estienne.ac-paris.fr/ninegate/?ticket=" target="blank">Retour à <img src="moodle.png" width="80" height="20"></a></li>
+<li><a href="https://extranet.ecole-estienne.ac-paris.fr/ninegate/?ticket=" target="blank"><img src="moodle.png" width="80" height="20"></a></li>
 
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Avertissements</a></li>
 <li class="chapter" data-level="1" data-path="bases-de-données.html"><a href="bases-de-données.html"><i class="fa fa-check"></i><b>1</b> Bases de données</a>
 <ul>
 <li class="chapter" data-level="1.1" data-path="bases-de-données.html"><a href="bases-de-données.html#vocabulaire"><i class="fa fa-check"></i><b>1.1</b> Vocabulaire</a></li>
-<li class="chapter" data-level="1.2" data-path="bases-de-données.html"><a href="bases-de-données.html#échéances"><i class="fa fa-check"></i><b>1.2</b> Échéances</a></li>
+<li class="chapter" data-level="1.2" data-path="bases-de-données.html"><a href="bases-de-données.html#définitions"><i class="fa fa-check"></i><b>1.2</b> Définitions</a></li>
+<li class="chapter" data-level="1.3" data-path="bases-de-données.html"><a href="bases-de-données.html#traductions"><i class="fa fa-check"></i><b>1.3</b> Traductions</a></li>
+<li class="chapter" data-level="1.4" data-path="bases-de-données.html"><a href="bases-de-données.html#prononciation"><i class="fa fa-check"></i><b>1.4</b> Prononciation</a></li>
+<li class="chapter" data-level="1.5" data-path="bases-de-données.html"><a href="bases-de-données.html#échéances"><i class="fa fa-check"></i><b>1.5</b> Échéances</a></li>
+<li class="chapter" data-level="1.6" data-path="bases-de-données.html"><a href="bases-de-données.html#flashcards"><i class="fa fa-check"></i><b>1.6</b> Flashcards</a></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="week-n1.html"><a href="week-n1.html"><i class="fa fa-check"></i><b>2</b> Week n°1</a>
 <ul>
-<li class="chapter" data-level="2.1" data-path="week-n1.html"><a href="week-n1.html#langlais-dans-le-référentiel"><i class="fa fa-check"></i><b>2.1</b> L’anglais dans le référentiel</a>
+<li class="chapter" data-level="2.0.1" data-path="week-n1.html"><a href="week-n1.html#utilisation-de-langlais-par-lélève"><i class="fa fa-check"></i><b>2.0.1</b> Utilisation de l’anglais par l’élève</a></li>
+<li class="chapter" data-level="2.0.2" data-path="week-n1.html"><a href="week-n1.html#compétences"><i class="fa fa-check"></i><b>2.0.2</b> Compétences</a></li>
+<li class="chapter" data-level="2.0.3" data-path="week-n1.html"><a href="week-n1.html#sous-compétences"><i class="fa fa-check"></i><b>2.0.3</b> Sous-compétences</a></li>
+<li class="chapter" data-level="2.0.4" data-path="week-n1.html"><a href="week-n1.html#activitéstâches"><i class="fa fa-check"></i><b>2.0.4</b> Activités/tâches</a></li>
+<li class="chapter" data-level="2.1" data-path="week-n1.html"><a href="week-n1.html#épreuve-e2-unité-2-langue-vivante-étrangère-anglais-coefficient-2"><i class="fa fa-check"></i><b>2.1</b> Épreuve E2 (Unité 2) – Langue vivante étrangère anglais (Coefficient 2)</a>
 <ul>
-<li class="chapter" data-level="2.1.1" data-path="week-n1.html"><a href="week-n1.html#utilisation-de-langlais-par-lélève"><i class="fa fa-check"></i><b>2.1.1</b> Utilisation de l’anglais par l’élève</a></li>
-<li class="chapter" data-level="2.1.2" data-path="week-n1.html"><a href="week-n1.html#compétences"><i class="fa fa-check"></i><b>2.1.2</b> Compétences</a></li>
-<li class="chapter" data-level="2.1.3" data-path="week-n1.html"><a href="week-n1.html#sous-compétences"><i class="fa fa-check"></i><b>2.1.3</b> Sous-compétences</a></li>
-<li class="chapter" data-level="2.1.4" data-path="week-n1.html"><a href="week-n1.html#activitéstâches"><i class="fa fa-check"></i><b>2.1.4</b> Activités/tâches</a></li>
+<li class="chapter" data-level="2.1.1" data-path="week-n1.html"><a href="week-n1.html#finalités-et-objectifs"><i class="fa fa-check"></i><b>2.1.1</b> Finalités et objectifs</a></li>
+<li class="chapter" data-level="2.1.2" data-path="week-n1.html"><a href="week-n1.html#formes-de-lévaluation"><i class="fa fa-check"></i><b>2.1.2</b> Formes de l’évaluation</a></li>
 </ul></li>
-<li class="chapter" data-level="2.2" data-path="week-n1.html"><a href="week-n1.html#épreuve-e2-unité-2-langue-vivante-étrangère-anglais-coefficient-2"><i class="fa fa-check"></i><b>2.2</b> Épreuve E2 (Unité 2) – Langue vivante étrangère anglais (Coefficient 2)</a>
+<li class="chapter" data-level="2.2" data-path="week-n1.html"><a href="week-n1.html#le-cecrl"><i class="fa fa-check"></i><b>2.2</b> Le CECRL</a>
 <ul>
-<li class="chapter" data-level="2.2.1" data-path="week-n1.html"><a href="week-n1.html#finalités-et-objectifs"><i class="fa fa-check"></i><b>2.2.1</b> Finalités et objectifs</a></li>
-<li class="chapter" data-level="2.2.2" data-path="week-n1.html"><a href="week-n1.html#formes-de-lévaluation"><i class="fa fa-check"></i><b>2.2.2</b> Formes de l’évaluation</a></li>
+<li class="chapter" data-level="2.2.1" data-path="week-n1.html"><a href="week-n1.html#prise-de-parole-en-continu"><i class="fa fa-check"></i><b>2.2.1</b> Prise de parole en continu</a></li>
+<li class="chapter" data-level="2.2.2" data-path="week-n1.html"><a href="week-n1.html#interaction-orale"><i class="fa fa-check"></i><b>2.2.2</b> Interaction orale</a></li>
 </ul></li>
-<li class="chapter" data-level="2.3" data-path="week-n1.html"><a href="week-n1.html#le-cecrl"><i class="fa fa-check"></i><b>2.3</b> Le CECRL</a>
+<li class="chapter" data-level="2.3" data-path="week-n1.html"><a href="week-n1.html#polls"><i class="fa fa-check"></i><b>2.3</b> Polls</a>
 <ul>
-<li class="chapter" data-level="2.3.1" data-path="week-n1.html"><a href="week-n1.html#prise-de-parole-en-continu"><i class="fa fa-check"></i><b>2.3.1</b> Prise de parole en continu</a></li>
-<li class="chapter" data-level="2.3.2" data-path="week-n1.html"><a href="week-n1.html#interaction-orale"><i class="fa fa-check"></i><b>2.3.2</b> Interaction orale</a></li>
+<li class="chapter" data-level="2.3.1" data-path="week-n1.html"><a href="week-n1.html#before-and-during-the-poll"><i class="fa fa-check"></i><b>2.3.1</b> Before and during the poll</a></li>
+<li class="chapter" data-level="2.3.2" data-path="week-n1.html"><a href="week-n1.html#after-the-poll"><i class="fa fa-check"></i><b>2.3.2</b> After the poll</a></li>
 </ul></li>
-<li class="chapter" data-level="2.4" data-path="week-n1.html"><a href="week-n1.html#polls"><i class="fa fa-check"></i><b>2.4</b> Polls</a>
+</ul></li>
+<li class="chapter" data-level="3" data-path="lesson-n2.html"><a href="lesson-n2.html"><i class="fa fa-check"></i><b>3</b> Lesson n°2</a>
 <ul>
-<li class="chapter" data-level="2.4.1" data-path="week-n1.html"><a href="week-n1.html#before-and-during-the-poll"><i class="fa fa-check"></i><b>2.4.1</b> Before and during the poll</a></li>
-<li class="chapter" data-level="2.4.2" data-path="week-n1.html"><a href="week-n1.html#after-the-poll"><i class="fa fa-check"></i><b>2.4.2</b> After the poll</a></li>
+<li class="chapter" data-level="3.1" data-path="lesson-n2.html"><a href="lesson-n2.html#translation"><i class="fa fa-check"></i><b>3.1</b> Translation</a></li>
+<li class="chapter" data-level="3.2" data-path="lesson-n2.html"><a href="lesson-n2.html#grammaire"><i class="fa fa-check"></i><b>3.2</b> Grammaire</a></li>
+<li class="chapter" data-level="3.3" data-path="lesson-n2.html"><a href="lesson-n2.html#offset-printing"><i class="fa fa-check"></i><b>3.3</b> Offset printing</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="lesson-n3.html"><a href="lesson-n3.html"><i class="fa fa-check"></i><b>4</b> Lesson n°3</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="lesson-n3.html"><a href="lesson-n3.html#translation-1"><i class="fa fa-check"></i><b>4.1</b> Translation</a></li>
+<li class="chapter" data-level="4.2" data-path="lesson-n3.html"><a href="lesson-n3.html#offset-printing-conjugations"><i class="fa fa-check"></i><b>4.2</b> Offset printing: conjugations</a></li>
+<li class="chapter" data-level="4.3" data-path="lesson-n3.html"><a href="lesson-n3.html#individual-interviews"><i class="fa fa-check"></i><b>4.3</b> Individual interviews</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="lesson-n4.html"><a href="lesson-n4.html"><i class="fa fa-check"></i><b>5</b> Lesson n°4</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="lesson-n4.html"><a href="lesson-n4.html#admin"><i class="fa fa-check"></i><b>5.1</b> Admin</a></li>
+<li class="chapter" data-level="5.2" data-path="lesson-n4.html"><a href="lesson-n4.html#traduction"><i class="fa fa-check"></i><b>5.2</b> Traduction</a></li>
+<li class="chapter" data-level="5.3" data-path="lesson-n4.html"><a href="lesson-n4.html#translation-2"><i class="fa fa-check"></i><b>5.3</b> Translation</a></li>
+<li class="chapter" data-level="5.4" data-path="lesson-n4.html"><a href="lesson-n4.html#colour-perception"><i class="fa fa-check"></i><b>5.4</b> Colour perception</a>
+<ul>
+<li class="chapter" data-level="5.4.1" data-path="lesson-n4.html"><a href="lesson-n4.html#video"><i class="fa fa-check"></i><b>5.4.1</b> Video</a></li>
+<li class="chapter" data-level="5.4.2" data-path="lesson-n4.html"><a href="lesson-n4.html#feuille-dexercices-corrigée"><i class="fa fa-check"></i><b>5.4.2</b> Feuille d’exercices corrigée</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="références.html"><a href="références.html"><i class="fa fa-check"></i><b>3</b> Références</a></li>
+<li class="chapter" data-level="6" data-path="lesson-n5.html"><a href="lesson-n5.html"><i class="fa fa-check"></i><b>6</b> Lesson n°5</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="lesson-n5.html"><a href="lesson-n5.html#translation-3"><i class="fa fa-check"></i><b>6.1</b> Translation</a></li>
+<li class="chapter" data-level="6.2" data-path="lesson-n5.html"><a href="lesson-n5.html#corrections"><i class="fa fa-check"></i><b>6.2</b> Corrections</a>
+<ul>
+<li class="chapter" data-level="6.2.1" data-path="lesson-n5.html"><a href="lesson-n5.html#correction-de-la-feuille-dexercices-sur-les-plis"><i class="fa fa-check"></i><b>6.2.1</b> Correction de la feuille d’exercices sur les plis</a></li>
+<li class="chapter" data-level="6.2.2" data-path="lesson-n5.html"><a href="lesson-n5.html#correction-de-linterrogation-erpc1"><i class="fa fa-check"></i><b>6.2.2</b> Correction de l’interrogation (ERPC1)</a></li>
+<li class="chapter" data-level="6.2.3" data-path="lesson-n5.html"><a href="lesson-n5.html#correction-de-linterrogation-erpc2"><i class="fa fa-check"></i><b>6.2.3</b> Correction de l’interrogation (ERPC2)</a></li>
+<li class="chapter" data-level="6.2.4" data-path="lesson-n5.html"><a href="lesson-n5.html#correction-de-linterrogation-erpc3"><i class="fa fa-check"></i><b>6.2.4</b> Correction de l’interrogation (ERPC3)</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="section.html"><a href="section.html"><i class="fa fa-check"></i><b>7</b> &lt;++&gt;</a></li>
+<li class="chapter" data-level="8" data-path="bts-erpc1.html"><a href="bts-erpc1.html"><i class="fa fa-check"></i><b>8</b> BTS ERPC1</a></li>
+<li class="chapter" data-level="9" data-path="section-1.html"><a href="section-1.html"><i class="fa fa-check"></i><b>9</b> &lt;++&gt;</a></li>
+<li class="chapter" data-level="10" data-path="section-2.html"><a href="section-2.html"><i class="fa fa-check"></i><b>10</b> &lt;++&gt;</a></li>
+<li class="chapter" data-level="11" data-path="références.html"><a href="références.html"><i class="fa fa-check"></i><b>11</b> Références</a></li>
 <li class="divider"></li>
-<li><a href="https://extranet.ecole-estienne.ac-paris.fr/ninegate/?ticket=" target="blank">Retour à <img src="moodle.png" width="80" height="20"></a></li>
+<li><a href="https://adrienmeli.xyz" target="blank">adrienmeli.xyz</a></li>
 
 </ul>
 
@@ -167,42 +207,306 @@ English
 <tbody>
 <tr>
 <td style="text-align:left;">
-des activités extrascolaires
+imprimer
 </td>
 <td style="text-align:left;">
-extracurricular activities
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-seul
-</td>
-<td style="text-align:left;">
-alone
+to print
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-un ordinateur portable
+fonctionner
 </td>
 <td style="text-align:left;">
-a laptop
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-posséder
-</td>
-<td style="text-align:left;">
-to own
+to work
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-rapide
+commencer
 </td>
 <td style="text-align:left;">
-fast
+to begin (began, begun)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+une étape
+</td>
+<td style="text-align:left;">
+a stage
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+un fichier numérique
+</td>
+<td style="text-align:left;">
+a digital file
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+gravé au laser
+</td>
+<td style="text-align:left;">
+laser-etched
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+une sous-couche
+</td>
+<td style="text-align:left;">
+an under-coat
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+une plaque
+</td>
+<td style="text-align:left;">
+a plate
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+charger
+</td>
+<td style="text-align:left;">
+to load
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+un rouleau
+</td>
+<td style="text-align:left;">
+a roller
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+humecter, humidifier
+</td>
+<td style="text-align:left;">
+to dampen
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+de l’huile
+</td>
+<td style="text-align:left;">
+oil
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+de l’encre
+</td>
+<td style="text-align:left;">
+ink
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+une couverture, un blanchet
+</td>
+<td style="text-align:left;">
+a blanket
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+résulter dans, aboutir à
+</td>
+<td style="text-align:left;">
+to result in
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+précis, aiguisé
+</td>
+<td style="text-align:left;">
+sharp
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+à travers quelque chose
+</td>
+<td style="text-align:left;">
+through
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+mince, fin
+</td>
+<td style="text-align:left;">
+thin
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+une couche
+</td>
+<td style="text-align:left;">
+a layer
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+de la poudre
+</td>
+<td style="text-align:left;">
+powder
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+sans
+</td>
+<td style="text-align:left;">
+without
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+mieux convenir à
+</td>
+<td style="text-align:left;">
+to be best suited for
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+une configuration
+</td>
+<td style="text-align:left;">
+a setup
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+tomber, chuter
+</td>
+<td style="text-align:left;">
+to fall (fell, fallen)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+habiter
+</td>
+<td style="text-align:left;">
+to live
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+vouloir
+</td>
+<td style="text-align:left;">
+to want
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+savoir, connaître
+</td>
+<td style="text-align:left;">
+to know
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+déjà
+</td>
+<td style="text-align:left;">
+already
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+une équipe
+</td>
+<td style="text-align:left;">
+a team
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+avoir l’intention de
+</td>
+<td style="text-align:left;">
+to intend
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+un sondage
+</td>
+<td style="text-align:left;">
+a poll
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+demander
+</td>
+<td style="text-align:left;">
+to ask
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+répondre
+</td>
+<td style="text-align:left;">
+to answer
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+un logiciel
+</td>
+<td style="text-align:left;">
+a software
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+avec
+</td>
+<td style="text-align:left;">
+with
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+sans
+</td>
+<td style="text-align:left;">
+without
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+passer, dépenser
+</td>
+<td style="text-align:left;">
+to spend
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+l’enfance
+</td>
+<td style="text-align:left;">
+childhood
 </td>
 </tr>
 <tr>
@@ -215,26 +519,34 @@ to type
 </tr>
 <tr>
 <td style="text-align:left;">
-un stage
-</td>
-<td style="text-align:left;">
-an internship
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-passer (du temps)
-</td>
-<td style="text-align:left;">
-to spend
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
 de nationalité étrangère
 </td>
 <td style="text-align:left;">
 foreign
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+un ordinateur portable
+</td>
+<td style="text-align:left;">
+a laptop
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+des activités extrascolaires
+</td>
+<td style="text-align:left;">
+extracurricular activities
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+un stage
+</td>
+<td style="text-align:left;">
+an internship
 </td>
 </tr>
 <tr>
@@ -255,63 +567,3018 @@ a part-time job
 </tr>
 <tr>
 <td style="text-align:left;">
+une charte chromatique
+</td>
+<td style="text-align:left;">
+a colour scheme
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+cocher des cases
+</td>
+<td style="text-align:left;">
+to check off boxes
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+un défaut
+</td>
+<td style="text-align:left;">
+a drawback
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+devrait
+</td>
+<td style="text-align:left;">
+should
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+permettre
+</td>
+<td style="text-align:left;">
+to allow
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+étaler
+</td>
+<td style="text-align:left;">
+to spread
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+fiable
+</td>
+<td style="text-align:left;">
+reliable
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+parfait
+</td>
+<td style="text-align:left;">
+spot-on
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+une erreur
+</td>
+<td style="text-align:left;">
+a mistake
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+une fournée
+</td>
+<td style="text-align:left;">
+a batch
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+brancher
+</td>
+<td style="text-align:left;">
+to hook up
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+temps mis pour une tâche
+</td>
+<td style="text-align:left;">
+turnaround time
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+vision informée
+</td>
+<td style="text-align:left;">
+insight
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+intelligent
+</td>
+<td style="text-align:left;">
+smart
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+avoir besoin de
+</td>
+<td style="text-align:left;">
+to need
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+être important
+</td>
+<td style="text-align:left;">
+to matter
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+être logique
+</td>
+<td style="text-align:left;">
+to make sense
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+précis, exact
+</td>
+<td style="text-align:left;">
+accurate
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+donner, fournir
+</td>
+<td style="text-align:left;">
+to provide
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+impeccable
+</td>
+<td style="text-align:left;">
+crisp
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+la manière
+</td>
+<td style="text-align:left;">
+the way
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+une commande, une impression
+</td>
+<td style="text-align:left;">
+a run
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+un coût
+</td>
+<td style="text-align:left;">
+a cost
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+la meilleure solution
+</td>
+<td style="text-align:left;">
+the right fit
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+bas
+</td>
+<td style="text-align:left;">
+low
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+pas cher
+</td>
+<td style="text-align:left;">
+cheap
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+améliorer
+</td>
+<td style="text-align:left;">
+to improve
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+personnalisé
+</td>
+<td style="text-align:left;">
+custom
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+une finition
+</td>
+<td style="text-align:left;">
+a finish
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+exiger, demander
+</td>
+<td style="text-align:left;">
+to require
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+passer (du temps)
+</td>
+<td style="text-align:left;">
+to spend
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
 un clavier
 </td>
 <td style="text-align:left;">
 a keyboard
 </td>
 </tr>
+<tr>
+<td style="text-align:left;">
+une usine
+</td>
+<td style="text-align:left;">
+a factory
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+avoir lieu, se dérouler
+</td>
+<td style="text-align:left;">
+to take place
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+briller
+</td>
+<td style="text-align:left;">
+to shine
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+un bâtonnet
+</td>
+<td style="text-align:left;">
+a rod
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+un cône
+</td>
+<td style="text-align:left;">
+a cone
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+duper, rouler, tromper
+</td>
+<td style="text-align:left;">
+to trick
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+un fabricant
+</td>
+<td style="text-align:left;">
+a manufacturer
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+une onde
+</td>
+<td style="text-align:left;">
+a wave
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+se chevaucher
+</td>
+<td style="text-align:left;">
+to overlap
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+une cellule
+</td>
+<td style="text-align:left;">
+a cell
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+rapide
+</td>
+<td style="text-align:left;">
+fast
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+seul
+</td>
+<td style="text-align:left;">
+alone
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+posséder
+</td>
+<td style="text-align:left;">
+to own
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+une agence de communication
+</td>
+<td style="text-align:left;">
+an ad(vertising) agency
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+un pli
+</td>
+<td style="text-align:left;">
+a fold
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+une finition brillante
+</td>
+<td style="text-align:left;">
+a glossy finish
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+une finition mate
+</td>
+<td style="text-align:left;">
+a matte finish
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+le grammage
+</td>
+<td style="text-align:left;">
+paper weight
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+un exemplaire
+</td>
+<td style="text-align:left;">
+a copy
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+le recto
+</td>
+<td style="text-align:left;">
+the front
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+le verso
+</td>
+<td style="text-align:left;">
+the back
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+recto-verso
+</td>
+<td style="text-align:left;">
+both sides
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+relier (un livre)
+</td>
+<td style="text-align:left;">
+to bind (bound, bound)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+dos carré-collé
+</td>
+<td style="text-align:left;">
+perfect binding
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+piqûre à cheval
+</td>
+<td style="text-align:left;">
+saddle-stitched
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+dépliants
+</td>
+<td style="text-align:left;">
+brochures
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+cartes de visite
+</td>
+<td style="text-align:left;">
+business cards
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+brochures
+</td>
+<td style="text-align:left;">
+booklets
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+autocollants
+</td>
+<td style="text-align:left;">
+stickers
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+équipement, installation
+</td>
+<td style="text-align:left;">
+facility
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+taille
+</td>
+<td style="text-align:left;">
+size
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+alimenter
+</td>
+<td style="text-align:left;">
+to feed (fed, fed)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+une fois que
+</td>
+<td style="text-align:left;">
+once
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+glisser
+</td>
+<td style="text-align:left;">
+to glide
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+des agrafes
+</td>
+<td style="text-align:left;">
+staples
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+le dos (d’un livre)
+</td>
+<td style="text-align:left;">
+the spine
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+reliure à spirale
+</td>
+<td style="text-align:left;">
+coil binding
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+un massicot
+</td>
+<td style="text-align:left;">
+a trimmer
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+expédier
+</td>
+<td style="text-align:left;">
+to ship out
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+stockage
+</td>
+<td style="text-align:left;">
+storage
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+deux fois
+</td>
+<td style="text-align:left;">
+twice
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+frais d’adhésion
+</td>
+<td style="text-align:left;">
+membership fees
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+des dépenses
+</td>
+<td style="text-align:left;">
+expenditures
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+une norme
+</td>
+<td style="text-align:left;">
+a standard
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+le gagne-pain, la source de revenus
+</td>
+<td style="text-align:left;">
+the livelihood
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+une matière première
+</td>
+<td style="text-align:left;">
+a raw material
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+un revenu
+</td>
+<td style="text-align:left;">
+an income
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+fournir, procurer
+</td>
+<td style="text-align:left;">
+to provide
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+durable
+</td>
+<td style="text-align:left;">
+sustainable
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+un détaillant
+</td>
+<td style="text-align:left;">
+a retailer
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+remplir des conditions requises
+</td>
+<td style="text-align:left;">
+to meet requirements
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+permettre à qn de faire
+</td>
+<td style="text-align:left;">
+to allow sb to
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+gestion, direction
+</td>
+<td style="text-align:left;">
+stewardship
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+engagement
+</td>
+<td style="text-align:left;">
+commitment
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+une marque
+</td>
+<td style="text-align:left;">
+a brand
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+mettre en valeur, souligner
+</td>
+<td style="text-align:left;">
+to highlight
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+améliorer
+</td>
+<td style="text-align:left;">
+to enhance
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+profiter à, bénéficier à
+</td>
+<td style="text-align:left;">
+to benefit
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+traçabilité
+</td>
+<td style="text-align:left;">
+chain of custody
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+bois d’œuvre
+</td>
+<td style="text-align:left;">
+timber
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+récolter
+</td>
+<td style="text-align:left;">
+to harvest
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+s’assurer, garantir
+</td>
+<td style="text-align:left;">
+to ensure
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+matière première
+</td>
+<td style="text-align:left;">
+raw material
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+croître
+</td>
+<td style="text-align:left;">
+to grow
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+stocker
+</td>
+<td style="text-align:left;">
+to store
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+des centaines
+</td>
+<td style="text-align:left;">
+hundreds
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+autour
+</td>
+<td style="text-align:left;">
+around
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+tel que
+</td>
+<td style="text-align:left;">
+such as
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+des vêtements
+</td>
+<td style="text-align:left;">
+clothes
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+ne … plus
+</td>
+<td style="text-align:left;">
+no longer
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+endommager
+</td>
+<td style="text-align:left;">
+to harm
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+parvenir à
+</td>
+<td style="text-align:left;">
+to manage to
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+un tâche
+</td>
+<td style="text-align:left;">
+an assignment
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+une règle
+</td>
+<td style="text-align:left;">
+a rule
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+une facture
+</td>
+<td style="text-align:left;">
+an invoice
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+autoriser
+</td>
+<td style="text-align:left;">
+to allow
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+un montant
+</td>
+<td style="text-align:left;">
+an amount
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+reconnaissant
+</td>
+<td style="text-align:left;">
+grateful
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+une commande
+</td>
+<td style="text-align:left;">
+an order
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+une livraison
+</td>
+<td style="text-align:left;">
+a delivery
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+un service
+</td>
+<td style="text-align:left;">
+a favour
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+habituellement
+</td>
+<td style="text-align:left;">
+usually
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+flux de trésorerie
+</td>
+<td style="text-align:left;">
+cash flow
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+la gestion
+</td>
+<td style="text-align:left;">
+the management
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+signifier
+</td>
+<td style="text-align:left;">
+to stand for
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+le soutien
+</td>
+<td style="text-align:left;">
+the endorsement
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+alors que
+</td>
+<td style="text-align:left;">
+whereas
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+attendez
+</td>
+<td style="text-align:left;">
+hold on
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+une tendance
+</td>
+<td style="text-align:left;">
+a trend
+</td>
+</tr>
 </tbody>
 </table>
 </div>
-<div id="échéances" class="section level2" number="1.2">
-<h2><span class="header-section-number">1.2</span> Échéances</h2>
-<table class="table table-hover" style="margin-left: auto; margin-right: auto;">
+<div id="définitions" class="section level2" number="1.2">
+<h2><span class="header-section-number">1.2</span> Définitions</h2>
+<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
 <th style="text-align:left;">
-Échéances
+Expression
 </th>
 <th style="text-align:left;">
-Description
-</th>
-<th style="text-align:left;">
-Jours restants
+Definition
 </th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align:left;">
-<span style=" font-weight: bold;    color: green !important;">28/09/2021</span>
+Accordion Fold
 </td>
 <td style="text-align:left;">
-<span style="     color: black !important;">ERPC3 : Préparer la présentation orale des résultats de sondage</span>
-</td>
-<td style="text-align:left;">
-<span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: orange !important;">7</span>
+A fold constructed by folding a sheet three times in a zig-zag pattern, creating a piece that expands like an accordion.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-<span style=" font-weight: bold;    color: green !important;">30/09/2021</span>
+Double Gate Fold
 </td>
 <td style="text-align:left;">
-<span style="     color: black !important;">ERPC2 : Préparer la présentation orale des résultats de sondage</span>
-</td>
-<td style="text-align:left;">
-<span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: orange !important;">9</span>
+A fold constructed by folding a sheet inwards on each side, creating two side panels that open like doors, and then folding the sheet in half.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-<span style=" font-weight: bold;    color: green !important;">05/10/2021</span>
+Double Parallel Fold
 </td>
 <td style="text-align:left;">
-<span style="     color: black !important;">ERPC1 : Préparer la présentation orale des résultats de sondage</span>
+A fold, also known as a parallel center, constructed by folding a sheet in half, and then in half once again.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Flat (No Folding)
 </td>
 <td style="text-align:left;">
-<span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: chartreuse !important;">14</span>
+No folding or scoring
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Gate Fold
+</td>
+<td style="text-align:left;">
+A fold constructed by folding a sheet inwards on each side, creating two side panels that open like doors or gates.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Half-Fold
+</td>
+<td style="text-align:left;">
+A fold, also known as a book fold, constructed by folding a sheet once, creating two equal halves.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Right-Angle Half Fold
+</td>
+<td style="text-align:left;">
+A fold, also known as a French fold, constructed by folding a sheet in half horizontally, and then in half once again vertically.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+to coat stg
+</td>
+<td style="text-align:left;">
+to cover or spread with a finishing, protecting, or enclosing layer
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+to dampen stg
+</td>
+<td style="text-align:left;">
+to make stg moderately wet
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Tri-Fold / Letter-Fold
+</td>
+<td style="text-align:left;">
+A fold, also known as a letter-fold, constructed by folding a sheet twice like a mailed letter.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Z-Fold
+</td>
+<td style="text-align:left;">
+A fold, also known as a fan fold or zig-zag fold, constructed by folding a sheet twice in the shape of the letter Z.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+when something doesn’t follow the usual rule
+</td>
+<td style="text-align:left;">
+an exception
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+the conditions of when a customer should make payment
+</td>
+<td style="text-align:left;">
+payment terms
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+a document which shows how much a customer has to pay, for what and by when
+</td>
+<td style="text-align:left;">
+an invoice
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+when more time is allowed for something
+</td>
+<td style="text-align:left;">
+an extension
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+proof that a delivery has been made
+</td>
+<td style="text-align:left;">
+delivery confirmation
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+the timing and amount of money coming in and going out of a company
+</td>
+<td style="text-align:left;">
+cash flow
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+an official or organisational rule
+</td>
+<td style="text-align:left;">
+a regulation
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+to show someone you are grateful for something they have done
+</td>
+<td style="text-align:left;">
+to appreciate
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="traductions" class="section level2" number="1.3">
+<h2><span class="header-section-number">1.3</span> Traductions</h2>
+<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Français
+</th>
+<th style="text-align:left;">
+English
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Connais-tu déjà ton option?
+</td>
+<td style="text-align:left;">
+Do you already know your option?
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+As-tu utilisé ce logiciel l’année dernière?
+</td>
+<td style="text-align:left;">
+Did you use this software last year?
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Pourrais-tu me prêter ton stylo s’il te plaît?
+</td>
+<td style="text-align:left;">
+Could you lend me your pen please?
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Est-ce que tu travailles, là ?
+</td>
+<td style="text-align:left;">
+Are you working right now?
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Qu’ont répondu les étudiants la semaine dernière?
+</td>
+<td style="text-align:left;">
+What did the students answer last week?
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+La semaine dernière, 4 étudiants sur 19 ont répondu “non“.
+</td>
+<td style="text-align:left;">
+Last week, 4 students out of 19 answered “no“.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Où as-tu travaillé pendant ton stage ?
+</td>
+<td style="text-align:left;">
+Where did you work during your internship ?
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+J’ai travaillé dans une entreprise en banlieue.
+</td>
+<td style="text-align:left;">
+I worked in a company in the suburbs.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+As-tu parlé aux clients ?
+</td>
+<td style="text-align:left;">
+Did you speak to the customers?
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+J’ai parlé à beaucoup de clients.
+</td>
+<td style="text-align:left;">
+I spoke to a lot of customers.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+J’ai passé mon enfance à Paris.
+</td>
+<td style="text-align:left;">
+I spent my childhood in Paris
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+J’ai fait un stage de deux mois dans une entreprise l’année dernière.
+</td>
+<td style="text-align:left;">
+I did an internship for two months in a company last year
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Je voudrais faire un stage dans une entreprise près de chez moi.
+</td>
+<td style="text-align:left;">
+I would like to do an internship in a company close to home.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Pourquoi n’as-tu pas appelé cette entreprise?
+</td>
+<td style="text-align:left;">
+Why did you not call that company?
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Je voudrais faire un stage dans une entreprise près de chez moi
+</td>
+<td style="text-align:left;">
+I would like to do an internship in a company close to home.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Je voudrais commander 2500 dépliants
+</td>
+<td style="text-align:left;">
+I would like to order 2500 folded leaflets.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Quand pouvez-vous les expédier?
+</td>
+<td style="text-align:left;">
+When can you ship them out?
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Le manager veut que nous travaillions dans l’entreprise
+</td>
+<td style="text-align:left;">
+The manager wants us to work in the company
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Ces cartes de visite doivent être imprimées avant la fin de la semaine
+</td>
+<td style="text-align:left;">
+These business cards must be printed before the end of the week.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Le client veut que nous expédiions la commande demain.
+</td>
+<td style="text-align:left;">
+The customer wants us to ship out the order tomorrow.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+J’aimerais que ce livre soit relié en piqûre à cheval.
+</td>
+<td style="text-align:left;">
+I would like this book to be saddle-stitched.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Le client veut que nous imprimions la commande demain.
+</td>
+<td style="text-align:left;">
+The customer wants us to print the order tomorrow.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+As-tu appelé le magasin hier ?
+</td>
+<td style="text-align:left;">
+Did you call the shop yesterday?
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+La semaine dernière, nous avons acheté un nouveau massicot.
+</td>
+<td style="text-align:left;">
+Last week, we bought a new trimmer.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+As-tu besoin de plus d’autocollants ?
+</td>
+<td style="text-align:left;">
+Do you need more stickers?
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Nous devons expédier la commande maintenant.
+</td>
+<td style="text-align:left;">
+We must send the order now.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Quel type de pli voulez-vous ?
+</td>
+<td style="text-align:left;">
+What type of fold do you want?
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Nous devons acheter des agrafes.
+</td>
+<td style="text-align:left;">
+We must buy staples.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Mon chef veut que le message soit clair.
+</td>
+<td style="text-align:left;">
+My boss wants the message to be clear.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Tu as fait une petite erreur.
+</td>
+<td style="text-align:left;">
+You made a small mistake.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Cette imprimante a-t-elle des défauts ?
+</td>
+<td style="text-align:left;">
+Does this printer have drawbacks?
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Le professeur veut que nous fassions un sondage.
+</td>
+<td style="text-align:left;">
+The teacher wants us to do a poll.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Parle-t-il français ?
+</td>
+<td style="text-align:left;">
+Does he speak English?
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Nous appellerons l’entreprise la semaine prochaine.
+</td>
+<td style="text-align:left;">
+We will call the company next week.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Que regardes-tu ?
+</td>
+<td style="text-align:left;">
+What are you looking at?
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Je ne comprends pas ce qu’ils veulent.
+</td>
+<td style="text-align:left;">
+I don’t understand what they want.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Je ne peux pas travailler sans ordinateur.
+</td>
+<td style="text-align:left;">
+I can’t work without a computer.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Peux-tu me rappeler ?
+</td>
+<td style="text-align:left;">
+Can you call me back?
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Avec qui es-tu en train de travailler ?
+</td>
+<td style="text-align:left;">
+Who are you working with?
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Nous travaillons souvent avec des entreprises étrangères.
+</td>
+<td style="text-align:left;">
+We often work with foreign companies.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Quel logiciel utilises-tu aujourd’hui ?
+</td>
+<td style="text-align:left;">
+What software are you using today?
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Est-ce que ton chef parle anglais ?
+</td>
+<td style="text-align:left;">
+Does your boss speak English?
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Où as-tu passé les vacances?
+</td>
+<td style="text-align:left;">
+Where did you spend the holidays?
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+J’ai passé les vacances à la maison.
+</td>
+<td style="text-align:left;">
+I spent the holidays at home.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Avec qui habites-tu?
+</td>
+<td style="text-align:left;">
+Who do you live with,
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+J’habite avec ma famille.
+</td>
+<td style="text-align:left;">
+I live with my family.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Où étudies-tu cette année ?
+</td>
+<td style="text-align:left;">
+Where are you studying this year?
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+J’étudie à l’École Estienne.
+</td>
+<td style="text-align:left;">
+I am studying at Ecole Estienne.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Que dois-tu faire cette semaine ?
+</td>
+<td style="text-align:left;">
+What must you do this week?
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Je dois trouver un stage.
+</td>
+<td style="text-align:left;">
+I must find an internship.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Le client a-t-il rappelé hier?
+</td>
+<td style="text-align:left;">
+Did the customer call back yesterday?
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+L’entreprise a commandé 10 000 cartes de visite la semaine dernière.
+</td>
+<td style="text-align:left;">
+The company ordered 10,000 business cards last week.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Il faut que je change l’encre de cette presse.
+</td>
+<td style="text-align:left;">
+I must change the ink of that press.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Que fais-tu ?
+</td>
+<td style="text-align:left;">
+What are you doing?
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Je lis le manuel de notre nouveau logiciel.
+</td>
+<td style="text-align:left;">
+I am reading the manual of our new software.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Mon tuteur veut que je travaille dans une nouvelle équipe.
+</td>
+<td style="text-align:left;">
+My wants me to work in a new team.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Mon stage a été annulé à cause de la pandémie.
+</td>
+<td style="text-align:left;">
+My internship was cancelled because of the pandemic.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Il faut que j’en trouve un autre.
+</td>
+<td style="text-align:left;">
+I must find another one.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Que cherches-tu ?
+</td>
+<td style="text-align:left;">
+What are you looking for?
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Je cherche le nuancier, je l’ai vu hier sur le bureau.
+</td>
+<td style="text-align:left;">
+I am looking for the fan deck, I saw it on the desk yesterday.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Sur quoi as-tu travaillé la semaine dernière?
+</td>
+<td style="text-align:left;">
+What did you work on last week?
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+J’ai travaillé sur un projet ennuyeux.
+</td>
+<td style="text-align:left;">
+I worked on a boring project.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Que regardes-tu?
+</td>
+<td style="text-align:left;">
+What are you looking at?
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Je regarde la nouvelle commande du client.
+</td>
+<td style="text-align:left;">
+I’m looking at the customer’s new order.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+À quelle heure quittes-tu le bureau, d’habitude?
+</td>
+<td style="text-align:left;">
+I usually leave the office at 5.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Connais-tu une autre manière de contacter le fabricant?
+</td>
+<td style="text-align:left;">
+Do you know another way to contact the manufacturer?
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Attention, ton image chevauche le texte.
+</td>
+<td style="text-align:left;">
+Be careful, your image is overlapping the text.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Tu devrais voir les nouvelles installations de mon entreprise.
+</td>
+<td style="text-align:left;">
+You should see my company’s new facilities.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+L’entreprise a commandé 10 000 cartes de visite la semaine dernière.
+</td>
+<td style="text-align:left;">
+The company ordered 10000 business cards last week.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Mon tuteur veut que je travaille dans une nouvelle équipe.
+</td>
+<td style="text-align:left;">
+My tutor wants me to work in a new team.
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="prononciation" class="section level2" number="1.4">
+<h2><span class="header-section-number">1.4</span> Prononciation</h2>
+<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Word
+</th>
+<th style="text-align:left;">
+Stress Pattern
+</th>
+<th style="text-align:left;">
+IPA (RP)
+</th>
+<th style="text-align:left;">
+Received Pronunciation
+</th>
+<th style="text-align:left;">
+General American
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+require
+</td>
+<td style="text-align:left;">
+/010/
+</td>
+<td style="text-align:left;">
+/ri.’kwaɪ.ə/
+</td>
+<td style="text-align:left;">
+/ˌriː.’kwaɪ.ər/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/require-8.mp3" controls=""><a href="sounds/require-8.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+cheap
+</td>
+<td style="text-align:left;">
+/1/
+</td>
+<td style="text-align:left;">
+/tʃiːp/
+</td>
+<td style="text-align:left;">
+/tʃiːp/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/cheap-9.mp3" controls=""><a href="sounds/cheap-9.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+provide
+</td>
+<td style="text-align:left;">
+/01/
+</td>
+<td style="text-align:left;">
+/prə.’vaɪd/
+</td>
+<td style="text-align:left;">
+/prə.’vaɪd/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/provide-7.mp3" controls=""><a href="sounds/provide-7.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+offset
+</td>
+<td style="text-align:left;">
+/10/
+</td>
+<td style="text-align:left;">
+/’ɒf.set/
+</td>
+<td style="text-align:left;">
+/ɒf.’set/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/offset-11.mp3" controls=""><a href="sounds/offset-11.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+accurate
+</td>
+<td style="text-align:left;">
+/100/
+</td>
+<td style="text-align:left;">
+/’æk.jər.ət/
+</td>
+<td style="text-align:left;">
+/’æk.jər.ət/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/accurate-01.mp3" controls=""><a href="sounds/accurate-01.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+matter
+</td>
+<td style="text-align:left;">
+/10/
+</td>
+<td style="text-align:left;">
+/’mæt.ə/
+</td>
+<td style="text-align:left;">
+/’mæt.ər/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/matter-8.mp3" controls=""><a href="sounds/matter-8.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+finish
+</td>
+<td style="text-align:left;">
+/10/
+</td>
+<td style="text-align:left;">
+/’fɪn.ɪʃ/
+</td>
+<td style="text-align:left;">
+/’fɪn.ɪʃ/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/finish-6.mp3" controls=""><a href="sounds/finish-6.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+digital
+</td>
+<td style="text-align:left;">
+/100/
+</td>
+<td style="text-align:left;">
+/’dɪdʒ.ɪt.əl/
+</td>
+<td style="text-align:left;">
+/’dɪdʒ.ɪt.əl/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/digital-6.mp3" controls=""><a href="sounds/digital-6.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+scheme
+</td>
+<td style="text-align:left;">
+/1/
+</td>
+<td style="text-align:left;">
+/skiːm/
+</td>
+<td style="text-align:left;">
+/skiːm/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/scheme-5.mp3" controls=""><a href="sounds/scheme-5.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+allow
+</td>
+<td style="text-align:left;">
+/01/
+</td>
+<td style="text-align:left;">
+/ə.’laʊ/
+</td>
+<td style="text-align:left;">
+/ə.’laʊ/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/allow-8.mp3" controls=""><a href="sounds/allow-8.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+spread
+</td>
+<td style="text-align:left;">
+/1/
+</td>
+<td style="text-align:left;">
+/spred/
+</td>
+<td style="text-align:left;">
+/spred/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/spread-01.mp3" controls=""><a href="sounds/spread-01.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+reliable
+</td>
+<td style="text-align:left;">
+/0100/
+</td>
+<td style="text-align:left;">
+/ri.’laɪ.əb.əl/
+</td>
+<td style="text-align:left;">
+/ri.’laɪ.əb.əl/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/reliable-4.mp3" controls=""><a href="sounds/reliable-4.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+agency
+</td>
+<td style="text-align:left;">
+/100/
+</td>
+<td style="text-align:left;">
+/’eɪdʒ.əns.i/
+</td>
+<td style="text-align:left;">
+/’eɪdʒ.əns.i/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/agency-8.mp3" controls=""><a href="sounds/agency-8.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+bind
+</td>
+<td style="text-align:left;">
+/1/
+</td>
+<td style="text-align:left;">
+/baɪnd/
+</td>
+<td style="text-align:left;">
+/baɪnd/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/bind-7.mp3" controls=""><a href="sounds/bind-7.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+fold
+</td>
+<td style="text-align:left;">
+/1/
+</td>
+<td style="text-align:left;">
+/fəʊld/
+</td>
+<td style="text-align:left;">
+/foʊld/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/fold-1.mp3" controls=""><a href="sounds/fold-1.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+company
+</td>
+<td style="text-align:left;">
+/100/
+</td>
+<td style="text-align:left;">
+/’kʌmp.ən.i/
+</td>
+<td style="text-align:left;">
+/’kʌmp.ən.i/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/company-8.mp3" controls=""><a href="sounds/company-8.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+booklet
+</td>
+<td style="text-align:left;">
+/10/
+</td>
+<td style="text-align:left;">
+/’bʊk.lət/
+</td>
+<td style="text-align:left;">
+/’bʊk.lət/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/booklet-6.mp3" controls=""><a href="sounds/booklet-6.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+brochure
+</td>
+<td style="text-align:left;">
+/10/
+</td>
+<td style="text-align:left;">
+/’brəʊʃ.ə/
+</td>
+<td style="text-align:left;">
+/brəʊʃ.’ʊr/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/brochure-3.mp3" controls=""><a href="sounds/brochure-3.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+stitch
+</td>
+<td style="text-align:left;">
+/1/
+</td>
+<td style="text-align:left;">
+/stɪtʃ/
+</td>
+<td style="text-align:left;">
+/stɪtʃ/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/stitch-7.mp3" controls=""><a href="sounds/stitch-7.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+gate
+</td>
+<td style="text-align:left;">
+/1/
+</td>
+<td style="text-align:left;">
+/geɪt/
+</td>
+<td style="text-align:left;">
+/geɪt/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/gate-3.mp3" controls=""><a href="sounds/gate-3.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+market
+</td>
+<td style="text-align:left;">
+/10/
+</td>
+<td style="text-align:left;">
+/’mɑːk.ɪt/
+</td>
+<td style="text-align:left;">
+/’mɑːk.ɪt/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/market-4.mp3" controls=""><a href="sounds/market-4.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+facility
+</td>
+<td style="text-align:left;">
+/0100/
+</td>
+<td style="text-align:left;">
+/fə.’sɪl.ət.i/
+</td>
+<td style="text-align:left;">
+/fə.’sɪl.ət.i/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/facility-01.mp3" controls=""><a href="sounds/facility-01.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+once
+</td>
+<td style="text-align:left;">
+/1/
+</td>
+<td style="text-align:left;">
+/wʌns/
+</td>
+<td style="text-align:left;">
+/wʌns/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/once-9.mp3" controls=""><a href="sounds/once-9.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+staple
+</td>
+<td style="text-align:left;">
+/10/
+</td>
+<td style="text-align:left;">
+/’steɪp.əl/
+</td>
+<td style="text-align:left;">
+/’steɪp.əl/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/staple-7.mp3" controls=""><a href="sounds/staple-7.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+box
+</td>
+<td style="text-align:left;">
+/1/
+</td>
+<td style="text-align:left;">
+/bɒks/
+</td>
+<td style="text-align:left;">
+/bɑːks/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/box-1.mp3" controls=""><a href="sounds/box-1.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+sheet
+</td>
+<td style="text-align:left;">
+/1/
+</td>
+<td style="text-align:left;">
+/ʃiːt/
+</td>
+<td style="text-align:left;">
+/ʃiːt/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/sheet-1.mp3" controls=""><a href="sounds/sheet-1.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+twice
+</td>
+<td style="text-align:left;">
+/1/
+</td>
+<td style="text-align:left;">
+/twaɪs/
+</td>
+<td style="text-align:left;">
+/twaɪs/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/twice-1.mp3" controls=""><a href="sounds/twice-1.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+violet
+</td>
+<td style="text-align:left;">
+/100/
+</td>
+<td style="text-align:left;">
+/’vaɪ.əl.ət/
+</td>
+<td style="text-align:left;">
+/’vaɪ.əl.ət/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/violet-2.mp3" controls=""><a href="sounds/violet-2.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+retina
+</td>
+<td style="text-align:left;">
+/100/
+</td>
+<td style="text-align:left;">
+/’ret.ɪn.ə/
+</td>
+<td style="text-align:left;">
+/’ret.ɪn.ə/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/retina-6.mp3" controls=""><a href="sounds/retina-6.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+detection
+</td>
+<td style="text-align:left;">
+/010/
+</td>
+<td style="text-align:left;">
+/di.’tek.ʃən/
+</td>
+<td style="text-align:left;">
+/di.’tek.ʃən/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/detection-7.mp3" controls=""><a href="sounds/detection-7.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+signal
+</td>
+<td style="text-align:left;">
+/10/
+</td>
+<td style="text-align:left;">
+/’sɪg.nəl/
+</td>
+<td style="text-align:left;">
+/’sɪg.nəl/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/signal-6.mp3" controls=""><a href="sounds/signal-6.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+equal
+</td>
+<td style="text-align:left;">
+/10/
+</td>
+<td style="text-align:left;">
+/’iːk.wəl/
+</td>
+<td style="text-align:left;">
+/’iːk.wəl/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/equal-7.mp3" controls=""><a href="sounds/equal-7.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+manufacture
+</td>
+<td style="text-align:left;">
+/2010/
+</td>
+<td style="text-align:left;">
+/ˌmæn.ju.’fæk.tʃə/
+</td>
+<td style="text-align:left;">
+/ˌmæn.ju.’fæk.tʃər/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/manufacture-6.mp3" controls=""><a href="sounds/manufacture-6.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+singer
+</td>
+<td style="text-align:left;">
+/10/
+</td>
+<td style="text-align:left;">
+/’sɪŋ.ə/
+</td>
+<td style="text-align:left;">
+/’sɪŋ.ər/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/singer-5.mp3" controls=""><a href="sounds/singer-5.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+biology
+</td>
+<td style="text-align:left;">
+/0100/
+</td>
+<td style="text-align:left;">
+/baɪ.’ɒl.ədʒ.i/
+</td>
+<td style="text-align:left;">
+/baɪ.’ɑːl.ədʒ.i/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/biology-5.mp3" controls=""><a href="sounds/biology-5.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+region
+</td>
+<td style="text-align:left;">
+/10/
+</td>
+<td style="text-align:left;">
+/’riːdʒ.ən/
+</td>
+<td style="text-align:left;">
+/’riːdʒ.ən/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/region-4.mp3" controls=""><a href="sounds/region-4.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+interact
+</td>
+<td style="text-align:left;">
+/201/
+</td>
+<td style="text-align:left;">
+/ˌɪnt.ər.’ækt/
+</td>
+<td style="text-align:left;">
+/ˌɪnt.ər.’ækt/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/interact-1.mp3" controls=""><a href="sounds/interact-1.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+commitment
+</td>
+<td style="text-align:left;">
+/010/
+</td>
+<td style="text-align:left;">
+/kə.’mɪt.mənt/
+</td>
+<td style="text-align:left;">
+/kə.’mɪt.mənt/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/commitment-5.mp3" controls=""><a href="sounds/commitment-5.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+standard
+</td>
+<td style="text-align:left;">
+/10/
+</td>
+<td style="text-align:left;">
+/’stænd.əd/
+</td>
+<td style="text-align:left;">
+/’stænd.əd/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/standard-3.mp3" controls=""><a href="sounds/standard-3.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+climate
+</td>
+<td style="text-align:left;">
+/10/
+</td>
+<td style="text-align:left;">
+/’klaɪm.ət/
+</td>
+<td style="text-align:left;">
+/’klaɪm.ət/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/climate-1.mp3" controls=""><a href="sounds/climate-1.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+package
+</td>
+<td style="text-align:left;">
+/10/
+</td>
+<td style="text-align:left;">
+/’pæk.ɪdʒ/
+</td>
+<td style="text-align:left;">
+/’pæk.ɪdʒ/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/package-6.mp3" controls=""><a href="sounds/package-6.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+ensure
+</td>
+<td style="text-align:left;">
+/01/
+</td>
+<td style="text-align:left;">
+/ɪn.’ʃɔː/
+</td>
+<td style="text-align:left;">
+/ɪn.’ʃʊr/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/ensure-3.mp3" controls=""><a href="sounds/ensure-3.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+custody
+</td>
+<td style="text-align:left;">
+/100/
+</td>
+<td style="text-align:left;">
+/’kʌst.əd.i/
+</td>
+<td style="text-align:left;">
+/’kʌst.əd.i/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/custody-01.mp3" controls=""><a href="sounds/custody-01.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+stewardship
+</td>
+<td style="text-align:left;">
+/100/
+</td>
+<td style="text-align:left;">
+/’stjuː.əd.ʃɪp/
+</td>
+<td style="text-align:left;">
+/’stjuː.əd.ˌʃɪp/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/stewardship-8.mp3" controls=""><a href="sounds/stewardship-8.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+species
+</td>
+<td style="text-align:left;">
+/10/
+</td>
+<td style="text-align:left;">
+/’spiːʃ.iːz/
+</td>
+<td style="text-align:left;">
+/’spiːʃ.iːz/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/species-8.mp3" controls=""><a href="sounds/species-8.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+customer
+</td>
+<td style="text-align:left;">
+/100/
+</td>
+<td style="text-align:left;">
+/’kʌst.əm.ə/
+</td>
+<td style="text-align:left;">
+/’kʌst.əm.ər/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/customer-2.mp3" controls=""><a href="sounds/customer-2.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+business
+</td>
+<td style="text-align:left;">
+/10/
+</td>
+<td style="text-align:left;">
+/’bɪz.nəs/
+</td>
+<td style="text-align:left;">
+/’bɪz.nəs/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/business-4.mp3" controls=""><a href="sounds/business-4.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+change
+</td>
+<td style="text-align:left;">
+/1/
+</td>
+<td style="text-align:left;">
+/tʃeɪndʒ/
+</td>
+<td style="text-align:left;">
+/tʃeɪndʒ/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/change-1.mp3" controls=""><a href="sounds/change-1.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+software
+</td>
+<td style="text-align:left;">
+/10/
+</td>
+<td style="text-align:left;">
+/’sɒft.weə/
+</td>
+<td style="text-align:left;">
+/’sɔːft.ˌwer/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/software-5.mp3" controls=""><a href="sounds/software-5.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+team
+</td>
+<td style="text-align:left;">
+/1/
+</td>
+<td style="text-align:left;">
+/tiːm/
+</td>
+<td style="text-align:left;">
+/tiːm/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/team-1.mp3" controls=""><a href="sounds/team-1.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+cancel
+</td>
+<td style="text-align:left;">
+/10/
+</td>
+<td style="text-align:left;">
+/’kæns.əl/
+</td>
+<td style="text-align:left;">
+/’kæns.əl/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/cancel-01.mp3" controls=""><a href="sounds/cancel-01.mp3">Audio</a></audio>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+desk
+</td>
+<td style="text-align:left;">
+/1/
+</td>
+<td style="text-align:left;">
+/desk/
+</td>
+<td style="text-align:left;">
+/desk/
+</td>
+<td style="text-align:left;">
+<audio src="sounds/desk-2.mp3" controls=""><a href="sounds/desk-2.mp3">Audio</a></audio>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="échéances" class="section level2" number="1.5">
+<h2><span class="header-section-number">1.5</span> Échéances</h2>
+<table class="table table-hover" style="margin-left: auto; margin-right: auto;">
+<tbody>
+<tr>
+<td style="text-align:center;width: 20%; font-weight: bold;">
+28/09/2021
+</td>
+<td style="text-align:center;">
+ERPC3 : Préparer la présentation orale des résultats de sondage
+</td>
+</tr>
+<tr>
+<td style="text-align:center;width: 20%; font-weight: bold;">
+30/09/2021
+</td>
+<td style="text-align:center;">
+ERPC2 : Préparer la présentation orale des résultats de sondage
+</td>
+</tr>
+<tr>
+<td style="text-align:center;width: 20%; font-weight: bold;">
+05/10/2021
+</td>
+<td style="text-align:center;">
+ERPC1 : Préparer la présentation orale des résultats de sondage
+</td>
+</tr>
+<tr>
+<td style="text-align:center;width: 20%; font-weight: bold;">
+23/11/2021
+</td>
+<td style="text-align:center;">
+Interrogation de vocabulaire et de traduction (ERPC3)
+</td>
+</tr>
+<tr>
+<td style="text-align:center;width: 20%; font-weight: bold;">
+25/11/2021
+</td>
+<td style="text-align:center;">
+Interrogation de vocabulaire et de traduction (ERPC2)
+</td>
+</tr>
+<tr>
+<td style="text-align:center;width: 20%; font-weight: bold;">
+30/11/2021
+</td>
+<td style="text-align:center;">
+Interrogation de vocabulaire et de traduction (ERPC1)
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="flashcards" class="section level2" number="1.6">
+<h2><span class="header-section-number">1.6</span> Flashcards</h2>
+<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Images
+</th>
+<th style="text-align:left;">
+Expressions
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+<img src="course-data/flashcards/a-box.jpg" style="width:5cm" />
+</td>
+<td style="text-align:left;">
+a box
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="course-data/flashcards/a-cell.jpg" style="width:5cm" />
+</td>
+<td style="text-align:left;">
+a cell
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="course-data/flashcards/a-display.jpg" style="width:5cm" />
+</td>
+<td style="text-align:left;">
+a display
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="course-data/flashcards/a-fan-deck.jpg" style="width:5cm" />
+</td>
+<td style="text-align:left;">
+a fan deck
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="course-data/flashcards/a-gate.jpg" style="width:5cm" />
+</td>
+<td style="text-align:left;">
+a gate
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="course-data/flashcards/a-greeting-card.png" style="width:5cm" />
+</td>
+<td style="text-align:left;">
+a greeting card
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="course-data/flashcards/a-layer.png" style="width:5cm" />
+</td>
+<td style="text-align:left;">
+a layer
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="course-data/flashcards/a-sheet.jpg" style="width:5cm" />
+</td>
+<td style="text-align:left;">
+a sheet
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="course-data/flashcards/a-singer.jpg" style="width:5cm" />
+</td>
+<td style="text-align:left;">
+a singer
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="course-data/flashcards/a-singer.png" style="width:5cm" />
+</td>
+<td style="text-align:left;">
+a singer
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="course-data/flashcards/a-trimmer.jpg" style="width:5cm" />
+</td>
+<td style="text-align:left;">
+a trimmer
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="course-data/flashcards/a-wave.jpg" style="width:5cm" />
+</td>
+<td style="text-align:left;">
+a wave
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="course-data/flashcards/accordian-fold.png" style="width:5cm" />
+</td>
+<td style="text-align:left;">
+accordian fold
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="course-data/flashcards/book-spines.jpg" style="width:5cm" />
+</td>
+<td style="text-align:left;">
+book spines
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="course-data/flashcards/coil-binding.jpg" style="width:5cm" />
+</td>
+<td style="text-align:left;">
+coil binding
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="course-data/flashcards/digital-press.jpg" style="width:5cm" />
+</td>
+<td style="text-align:left;">
+digital press
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="course-data/flashcards/double-gate-fold.png" style="width:5cm" />
+</td>
+<td style="text-align:left;">
+double gate fold
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="course-data/flashcards/double-parallel-fold.png" style="width:5cm" />
+</td>
+<td style="text-align:left;">
+double parallel fold
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="course-data/flashcards/gate-fold.png" style="width:5cm" />
+</td>
+<td style="text-align:left;">
+gate fold
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="course-data/flashcards/half-fold.png" style="width:5cm" />
+</td>
+<td style="text-align:left;">
+half fold
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="course-data/flashcards/ink.jpg" style="width:5cm" />
+</td>
+<td style="text-align:left;">
+ink
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="course-data/flashcards/layers.png" style="width:5cm" />
+</td>
+<td style="text-align:left;">
+layers
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="course-data/flashcards/offset-printing.jpg" style="width:5cm" />
+</td>
+<td style="text-align:left;">
+offset printing
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="course-data/flashcards/perfect-binding.jpg" style="width:5cm" />
+</td>
+<td style="text-align:left;">
+perfect binding
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="course-data/flashcards/powder.jpg" style="width:5cm" />
+</td>
+<td style="text-align:left;">
+powder
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="course-data/flashcards/printing-plates.jpg" style="width:5cm" />
+</td>
+<td style="text-align:left;">
+printing plates
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="course-data/flashcards/right-angle-half-fold.png" style="width:5cm" />
+</td>
+<td style="text-align:left;">
+right angle half fold
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="course-data/flashcards/rubber-blankets.jpg" style="width:5cm" />
+</td>
+<td style="text-align:left;">
+rubber blankets
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="course-data/flashcards/saddle-stitched.png" style="width:5cm" />
+</td>
+<td style="text-align:left;">
+saddle stitched
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="course-data/flashcards/staples.jpg" style="width:5cm" />
+</td>
+<td style="text-align:left;">
+staples
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="course-data/flashcards/the-retina.jpg" style="width:5cm" />
+</td>
+<td style="text-align:left;">
+the retina
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="course-data/flashcards/three-filters-overlapping.jpg" style="width:5cm" />
+</td>
+<td style="text-align:left;">
+three filters overlapping
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="course-data/flashcards/to-check-off-a-box.jpg" style="width:5cm" />
+</td>
+<td style="text-align:left;">
+to check off a box
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="course-data/flashcards/to-cover.jpg" style="width:5cm" />
+</td>
+<td style="text-align:left;">
+to cover
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="course-data/flashcards/to-etch.jpg" style="width:5cm" />
+</td>
+<td style="text-align:left;">
+to etch
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="course-data/flashcards/to-glide.jpg" style="width:5cm" />
+</td>
+<td style="text-align:left;">
+to glide
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="course-data/flashcards/to-shine.jpg" style="width:5cm" />
+</td>
+<td style="text-align:left;">
+to shine
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="course-data/flashcards/to-skip-a-step.png" style="width:5cm" />
+</td>
+<td style="text-align:left;">
+to skip a step
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="course-data/flashcards/trifold.png" style="width:5cm" />
+</td>
+<td style="text-align:left;">
+trifold
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="course-data/flashcards/z-fold.png" style="width:5cm" />
+</td>
+<td style="text-align:left;">
+z fold
 </td>
 </tr>
 </tbody>
@@ -329,7 +3596,6 @@ Jours restants
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -369,6 +3635,10 @@ gitbook.start({
 "text": null
 },
 "download": ["bts1-2021.pdf"],
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
 }
